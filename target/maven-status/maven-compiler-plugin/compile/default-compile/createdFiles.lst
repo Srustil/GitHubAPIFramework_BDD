@@ -1,0 +1,4 @@
+pojo\Organization.class
+pojo\GitHubCreateRepoPojo.class
+pojo\Owner.class
+pojo\GitHubCreateRepoResponseRootPojo.class

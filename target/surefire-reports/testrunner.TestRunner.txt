@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: testrunner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.717 s <<< FAILURE! -- in testrunner.TestRunner
+GitHub Delete Repo scenarios.Delete public repo with valid data -- Time elapsed: 0.262 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'path param "owner" with value "orgchandrab119"' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("path param {string} with value {string}")
+public void pathParamWithValue(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("Authorization with value {string}")
+public void authorizationWithValue(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I do a DELETE request with url {string}")
+public void iDoADELETERequestWithUrl(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("validate Status Code is {int}")
+public void validateStatusCodeIs(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
